@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+//custom components
+@import "styles/variables.scss";
+@import "styles/mixins.scss";
+@import "styles/global.scss";
+@import "styles/typography.scss";
+@import "styles/buttons.scss";
+@import "styles/input.scss";
+@import "styles/dashboard";
+
+//navbar
+@import "styles/navs/global.scss";
+@import "styles/navs/sidebar";
+@import "styles/navs/topbar";
+
+@import "styles/utilities/text.scss";
+@import "styles/utilities/animation.scss";

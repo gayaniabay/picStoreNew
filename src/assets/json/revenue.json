@@ -1,0 +1,18 @@
+
+{
+    "datasets":[
+        {
+            "label": "Visiting Card",
+            "backgroundColor": "#42A5F5",
+            "borderColor": "#1E88E5",
+            "data": [50, 39, 19, 8, 5, 15, 10]
+        },
+        {
+            "label": "Office ID",
+            "backgroundColor": "#9CCC65",
+            "borderColor": "#7CB342",
+            "data": [25, 19, 14, 11, 6, 5, 4]
+        }
+    ]
+   
+}

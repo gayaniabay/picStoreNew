@@ -1,0 +1,75 @@
+@import "variables.scss";
+
+
+.bg-gradient-primary{
+    background-color: $blue;
+    background-size: cover;
+    height: 100vh;
+}
+.bg-login-image {
+    background: url(#{$image-path}/freepik-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    margin: 10px 0 10px 40px;
+    position: relative;
+    top: 30%;
+  }
+// Main page wrapper
+#wrapper {
+    display: flex;
+    #content-wrapper {
+      background-color: $gray-100;
+      width: 100%;
+      overflow-x: hidden;
+      #content {
+        flex: 1 0 auto;
+      }
+    }
+  }
+  
+  // Set container padding to match gutter width instead of default 15px
+  .container-fluid{
+    padding: 0;
+  }
+  .container{
+    padding-left: $grid-gutter-width;
+    padding-right: $grid-gutter-width;
+  }
+  
+  // Scroll to top button
+  .scroll-to-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    display: none;
+    width: 2.75rem;
+    height: 2.75rem;
+    text-align: center;
+    color: $white;
+    background: fade-out($gray-800, .5);
+    line-height: 46px;
+    &:focus,
+    &:hover {
+      color: white;
+    }
+    &:hover {
+      background: $gray-800;
+    }
+    i {
+      font-weight: 800;
+    }
+  }
+  .form-error{
+    color: $red-error-form;
+    background-color: $pink-light;
+    border-color: $pink-med;
+    font-size: 0.9em;
+    margin-bottom: 6px;
+    padding: 5px 10px;
+  }
+  .field-error{
+    font-size: 0.8em;
+    color: $red-error-field;
+    padding: 2px 20px;
+  }
